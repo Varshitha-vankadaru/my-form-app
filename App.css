@@ -1,0 +1,103 @@
+/* Overall container */
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header with orange background spanning full width */
+.header {
+  background-color: #F66733; /* Clemson orange */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 100%; /* Full width */
+  position: fixed; /* Fix header at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
+
+.gsg-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #522D80; /* Clemson purple */
+  padding: 40px;
+  max-width: 600px;
+  margin: 120px auto 20px auto; /* Adjust margin to push content below the header */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white; /* White text */
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent input fields */
+  color: white; /* Input text color white */
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Lighter white for placeholder */
+}
+
+.error {
+  color: #FF6F61; /* Error message color */
+  font-size: 0.9rem;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #F66733; /* Clemson orange */
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #e0552b;
+}
+
+/* Overall page background */
+body {
+  background-color: #522D80; /* Clemson purple */
+  margin: 0;
+  padding: 0;
+}
+
+.crop-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #333;
+}
